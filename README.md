@@ -1,64 +1,47 @@
-# Análise de Centros de Distribuição — Melhores Compras (Atividade 2)
+# 🧮 Calcula o valor médio de avaliação do produto  
 
-## Descrição do Projeto
-Este projeto tem como objetivo determinar a melhor localização de centros de distribuição para a empresa **Melhores Compras**, utilizando **clusterização de dados geográficos** (latitude e longitude) e análise de valor de entregas.
-
-O notebook realiza a análise da **base de dados logística fornecida**, contendo informações sobre latitude, longitude e preço das entregas, e sugere locais estratégicos para reduzir falhas de entrega e otimizar custos.
+Este projeto simples em **Python** calcula a **média das notas** atribuídas por clientes a um produto e exibe uma mensagem indicando se o produto é considerado **adequado** ou **inadequado** com base na avaliação média.
 
 ---
 
-## Estrutura do Repositório
-Atividade2/
-├── assets.csv # Arquivo CSV com dados de latitude, longitude e preço
-├── Atividade2_CentrosDistrib.ipynb # Notebook com todo o código
-└── README.md # Este arquivo
+## 📋 Descrição  
 
+O programa solicita três notas inteiras (de 0 a 10) inseridas pelo usuário e calcula a média aritmética dessas notas.  
 
----
+Com base na média obtida:  
+- Se a média for **maior que 6**, o produto é considerado **adequado aos clientes**.  
+- Caso contrário, o produto é classificado como **inadequado**, indicando que há **muitas reclamações**.  
 
-## Descrição das Etapas
-1. **Importação e inspeção dos dados**  
-   - Carregamento do CSV em DataFrame.
-   - Visualização das primeiras linhas e estatísticas descritivas.
-   
-2. **Limpeza e padronização**  
-   - Conversão de vírgulas para ponto decimal.
-   - Remoção de duplicatas e valores inválidos.
-   
-3. **Normalização das coordenadas**  
-   - Latitude e longitude foram normalizadas usando `StandardScaler` para clusterização.
-
-4. **Determinação do número ideal de clusters**  
-   - Aplicação do método Elbow para escolher o número de centros de distribuição.
-
-5. **Clusterização (K-Means)**  
-   - Definição dos clusters.
-   - Atribuição de cada entrega a um cluster.
-
-6. **Cálculo do valor total de entregas por cluster**  
-   - Soma do preço das entregas atendidas por cada centro.
-
-7. **Visualização dos clusters**  
-   - Scatter plot geográfico mostrando a distribuição dos centros de distribuição.
-
-8. **Conclusão**  
-   - Sugestão do número ideal de centros.
-   - Avaliação da distribuição geográfica e do valor total das entregas.
+Esse tipo de script pode ser utilizado em contextos simples de **análise de satisfação** ou **feedback de produtos**.
 
 ---
 
-## Como Executar
-1. Faça upload do arquivo `assets.csv` no Colab.  
-2. Abra o notebook `Atividade2_CentrosDistrib.ipynb`.  
-3. Execute todas as células na ordem.  
-4. Analise os gráficos do Elbow e do scatter plot para interpretar os clusters.  
+## 🧠 Lógica do código  
+
+1. O título do programa é centralizado na tela.  
+2. O usuário insere três notas de avaliação.  
+3. O programa calcula a média das notas.  
+4. Uma mensagem final é exibida conforme o resultado.  
 
 ---
 
-## Tecnologias e Bibliotecas
-- Python 3  
-- pandas  
-- scikit-learn (`KMeans`, `StandardScaler`)  
-- matplotlib  
-- seaborn  
-- Google Colab
+## 💻 Tecnologias utilizadas  
+
+- 🐍 **Python 3.x**  
+- ⚙️ Entrada e saída de dados (`input()` e `print()`)  
+- ➕ Operadores aritméticos  
+- 🔀 Estrutura condicional `if/else`  
+- 🧾 Formatação de strings com f-strings e placeholders  
+
+---
+
+## 🚀 Como executar  
+
+1. Certifique-se de ter o **Python 3** instalado na sua máquina.  
+2. Baixe o arquivo `avaliacao_produto.py` (ou o nome que você escolheu).  
+3. No terminal, execute o seguinte comando:  
+
+```bash
+python avaliacao_produto.py
+
+
