@@ -1,10 +1,10 @@
-# 🧮 Calcula o valor médio de avaliação do produto  
+# Calcula o valor médio de avaliação do produto  
 
 Este projeto simples em **Python** calcula a **média das notas** atribuídas por clientes a um produto e exibe uma mensagem indicando se o produto é considerado **adequado** ou **inadequado** com base na avaliação média.
 
 ---
 
-## 📋 Descrição  
+## Descrição  
 
 O programa solicita três notas inteiras (de 0 a 10) inseridas pelo usuário e calcula a média aritmética dessas notas.  
 
@@ -16,7 +16,7 @@ Esse tipo de script pode ser utilizado em contextos simples de **análise de sat
 
 ---
 
-## 🧠 Lógica do código  
+## Lógica do código  
 
 1. O título do programa é centralizado na tela.  
 2. O usuário insere três notas de avaliação.  
@@ -25,17 +25,17 @@ Esse tipo de script pode ser utilizado em contextos simples de **análise de sat
 
 ---
 
-## 💻 Tecnologias utilizadas  
+## Tecnologias utilizadas  
 
-- 🐍 **Python 3.x**  
-- ⚙️ Entrada e saída de dados (`input()` e `print()`)  
-- ➕ Operadores aritméticos  
-- 🔀 Estrutura condicional `if/else`  
-- 🧾 Formatação de strings com f-strings e placeholders  
+-  **Python 3.x**  
+-  Entrada e saída de dados (`input()` e `print()`)  
+-  Operadores aritméticos  
+-  Estrutura condicional `if/else`  
+-  Formatação de strings com f-strings e placeholders  
 
 ---
 
-## 🚀 Como executar  
+##  Como executar  
 
 1. Certifique-se de ter o **Python 3** instalado na sua máquina.  
 2. Baixe o arquivo `avaliacao_produto.py` (ou o nome que você escolheu).  
